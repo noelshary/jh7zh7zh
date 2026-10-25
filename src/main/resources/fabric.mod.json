@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "stylestudio",
+  "version": "${version}",
+  "name": "Style Studio",
+  "description": "Style-Menue zum Auswaehlen von Looks. Oeffnen mit Rechts-Shift.",
+  "authors": ["noelshary"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["de.bauloo.stylestudio.StyleStudioClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
